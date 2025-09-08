@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin:0 ;
+    text-align: center;
+}
+body{
+    background-color: rgb(230, 246, 255);
+}
+
+h1 {
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+#reset-btn{
+    background-color: #081b31;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 3rem;
+}
+
+.score-board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+}
+
+#comp-score , #user-score {
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+#msg {
+    background-color: #081b31;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    .choices {
+        flex-direction: column; /* Stack the choices vertically on very small screens */
+        gap: 1rem;
+    }
+
+    .choice {
+        width: 100px; /* Further reduce choice size */
+        height: 100px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    #comp-score, #user-score {
+        font-size: 2rem;
+    }
+
+    #msg {
+        font-size: 1rem;
+    }
+
+    #reset-btn {
+        width: 70px;
+        height: 20px;
+        font-size: 0.7rem;
+    }
+}
