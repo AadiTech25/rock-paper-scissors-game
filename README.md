@@ -1,27 +1,20 @@
-## 🕹 How to Play
-1. Open the game in a browser.  
-2. Click on **Rock, Paper, or Scissors** to make your move.  
-3. The computer will make a move automatically.  
-4. The scores are updated automatically.  
-5. Press **Reset Game** to start over.
+# 🎮 Rock Paper Scissors Game
 
----
+A simple Rock Paper Scissors game built with HTML, CSS, and JavaScript.  
+Play against the computer and keep track of your score.
 
-## 💻 Features
-- Interactive buttons for **Rock, Paper, Scissors**.  
-- Scoreboard for **User** and **Computer**.  
-- Game messages to show wins, losses, and draws.  
-- Reset button to restart the game.  
-- Responsive and easy to use.
+## 🚀 Live Demo
+[Play the Game Online](https://aaditech25.github.io/rock-paper-scissors-game/)
 
----
+## ✨ Features
+- Click to choose Rock, Paper, or Scissors  
+- Computer makes a random move  
+- Scoreboard updates automatically  
+- Reset button to restart the game  
+- Lightweight and responsive
 
-## ⚡ Technologies Used
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
+## 🛠️ Technologies
+HTML5 | CSS3 | JavaScript
 
----
-
-## 📝 Author
-[Aadi Malik](https://github.com/AadiTech25)
+## 👨‍💻 Author
+Created by Aadi Malik ❤️
